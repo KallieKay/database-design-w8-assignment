@@ -1,46 +1,15 @@
-# database-design-w8-assignment
+LIBRARY MANAGEMENT SYSTEM
 
-Question 1: Build a Complete Database Management System
-
-Objective:
-Design and implement a full-featured database using only MySQL.
-
-What to do:
-
-Choose a real-world use case (e.g., Library Management, Student Records, Clinic Booking System, Inventory Tracking, etc.)
-
-Create a well-structured relational database using SQL.
-
-Use SQL to create:
-
-Tables with proper constraints (PK, FK, NOT NULL, UNIQUE)
-
-Relationships (1-1, 1-M, M-M where needed)
-
-Deliverables:
-
-A single .sql file containing your:
-
-CREATE TABLE statements
-
-Submission Instructions
-
-Push your complete project to a GitHub repository
-
-📌 README file with:
-
-Project Title
-
-Description of what your project does
-
-How to run/setup the project (or import SQL)
-
-Screenshot or link to your ERD
-
-The repo must include:
+Description:  
+A full-featured relational database schema for a library. It manages publishers, books, authors, members, membership cards, physical book copies and loan transactions. Enforces data integrity with primary keys, foreign keys, unique constraints, and referential actions.
 
 
+## Prerequisites  
+- MySQL Server 5.7+ (8.0 recommended)  
+- MySQL client or MySQL Workbench (to import and explore schema)
 
-🧠 For Question 1:
-
-Only one .sql file (well-commented)
+## Setup & Import  
+1. Clone or download this repo:  
+   ```bash
+   git clone https://github.com/your-username/library-management-db.git
+   cd library-management-db
